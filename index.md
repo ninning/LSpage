@@ -4,7 +4,7 @@ Catpic here
 
 ### This is the page for all things LS
 
-[Workshop here]
+[Workshop here](TODO)
 
 ### Markdown
 
