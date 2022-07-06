@@ -2,6 +2,10 @@
 
 Catpic here
 
+### This is the page for all things LS
+
+[Workshop here]
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
