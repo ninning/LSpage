@@ -1,2 +1,7 @@
 ### Resources
-Theres going to be alot of resources for LS here.
+Resources for LS.
+
+[Workshop here]()
+[Repository for other items]()
+[Placeholder]()
+
