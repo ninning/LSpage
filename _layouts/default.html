@@ -20,7 +20,7 @@
       
       .hero-image {
         background-image: url("/LSpage/thumbnail.png");
-        height: 60%;
+        height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -52,9 +52,10 @@
   <body>
     
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-
     <section class="hero-image">
       <section class="hero-text">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         <a href="/LSpage/" class="btn">Home</a>
         <a href="" class="btn">View on GitHub</a>
         <a href="/LSpage/resources/" class="btn">Resources</a>
@@ -64,7 +65,7 @@
       </section>
     </section>
 
-    <header class="page-header" role="banner">
+    <!-- <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="/LSpage/" class="btn">Home</a>
@@ -73,7 +74,7 @@
       <a href="/LSpage/docs/" class="btn">FAQs</a>
       <a href="" class="btn">Lab Website</a>
       <a href="/LSpage/contact/" class="btn">Contact</a>
-    </header>
+    </header> -->
 
     <main id="content" class="main-content" role="main">
       {{ content }}
