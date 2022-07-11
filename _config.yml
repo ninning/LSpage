@@ -3,4 +3,3 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: This is our page for LS
 description: We have lots of resources for LS here
-image: /LSpage/thumbnail.png
